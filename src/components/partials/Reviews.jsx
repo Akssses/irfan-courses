@@ -32,7 +32,6 @@ export default function Reviews() {
                 <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">
                   Имя Фамилия
                 </h3>
-                <p className="text-sm text-gray-600">Какой то текст</p>
               </div>
             </div>
           </div>
@@ -56,7 +55,6 @@ export default function Reviews() {
                 <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">
                   Имя Фамилия
                 </h3>
-                <p className="text-sm text-gray-600">Какой то текст</p>
               </div>
             </div>
           </div>
@@ -79,7 +77,6 @@ export default function Reviews() {
                 <h3 className="mb-1.5 font-heading font-bold text-lg text-gray-900">
                   Имя Фамилия
                 </h3>
-                <p className="text-sm text-gray-600">Какой то текст</p>
               </div>
             </div>
           </div>

@@ -7,6 +7,8 @@ import Feature from "@/components/partials/Feature";
 import CoursesFor from "@/components/partials/CoursesFor";
 import Reviews from "@/components/partials/Reviews";
 import Footer from "@/components/layout/Footer";
+import Farhat from "@/components/partials/Farhat";
+import Video from "@/components/partials/Video";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +20,8 @@ export default function Home() {
       <About />
       <CoursesFor />
       <Feature />
+      <Farhat />
+      <Video />
       <Reviews />
       <Footer />
     </main>

@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 
 export default function Header() {
@@ -5,6 +6,8 @@ export default function Header() {
   const handleOpenNavbar = () => {
     setOpenNavBar(!openNavbar);
   };
+
+  const router = useRouter();
 
   return (
     <section className="container mx-auto">
@@ -43,7 +46,12 @@ export default function Header() {
             <div className="w-auto hidden lg:block">
               <div className="flex flex-wrap">
                 <div className="w-auto">
-                  <button className="group relative font-heading block py-2 px-5 text-lg text-gray-900 border-2 border-gray-900 overflow-hidden rounded-10">
+                  <button
+                    onClick={() =>
+                      router.push("https://wa.me/message/SMWZPUSFXBG7A1")
+                    }
+                    className="group relative font-heading block py-2 px-5 text-lg text-gray-900 border-2 border-gray-900 overflow-hidden rounded-10"
+                  >
                     <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gray-900 transition ease-in-out duration-500"></div>
                     <p className="relative z-10 group-hover:text-white">
                       Хочу на курсы
