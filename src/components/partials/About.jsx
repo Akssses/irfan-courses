@@ -23,8 +23,10 @@ export default function About() {
                   Личная методика
                 </h3>
                 <p className="text-gray-600">
-                  Курсы составлены по личной методике Фархат Ажы Юсупова с 20
-                  летним стажем.
+                  Наша методика предоставляет гибкий график обучения, позволяя
+                  ученикам выбирать удобное время для занятий. Это освобождает
+                  от ограничений и позволяет подстраивать обучение под
+                  индивидуальные обстоятельства.
                 </p>
               </div>
             </div>
@@ -41,8 +43,7 @@ export default function About() {
                   В онлайн формате более года
                 </h3>
                 <p className="text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim.
+                  За 1 гол мы обучили более 800 учеников по всему миру!
                 </p>
               </div>
             </div>
@@ -56,11 +57,11 @@ export default function About() {
                   alt=""
                 />
                 <h3 className="mb-5 font-heading font-bold text-gray-900 text-xl">
-                  Более 800+ учеников
+                  Дипломированные кураторы
                 </h3>
                 <p className="text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim.
+                  Все наши кураторы имеют высшее теологическое образование, а
+                  так же практический опыт в преподавании
                 </p>
               </div>
             </div>

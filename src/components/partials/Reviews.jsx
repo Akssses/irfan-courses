@@ -8,8 +8,8 @@ export default function Reviews() {
           800+ довольных учеников
         </h2>
         <p className="mb-16 text-base max-w-md mx-auto text-center text-gray-600">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          За все время с нами обучились более 800 учеников и вот их отзывы о
+          наших курсах
         </p>
         <div className="flex flex-wrap -m-5">
           <div className="w-full md:w-1/3 p-5">

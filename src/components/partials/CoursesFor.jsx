@@ -10,11 +10,7 @@ export default function CoursesFor() {
               <h2 className="mb-6 font-heading font-bold text-7xl text-gray-900">
                 Курсы подойдут для братьев и сестер которые хотят:
               </h2>
-              <p className="mb-20 text-base text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat.
-              </p>
+
               <ul>
                 <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                   <img
@@ -33,7 +29,7 @@ export default function CoursesFor() {
                     src="/assets/gradia-assets/elements/hero/check.svg"
                     alt=""
                   />
-                  <p>Исправить сови ошибки в произношении сур в намазе</p>
+                  <p>Исправить свои ошибки в произношении сур в намазе</p>
                 </li>
                 <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
                   <img
