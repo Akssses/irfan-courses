@@ -4,9 +4,6 @@ export default function About() {
   return (
     <section className="relative pt-10 pb-32 overflow-hidden">
       <div className="container mx-auto px-4 mb-12">
-        <p className="mb-5 font-heading text-xs text-gray-600 font-semibold text-center uppercase tracking-px">
-          ТУТ КАКОЙ- ТО ПРИКОЛЬНЫЙ ТЕКСТ
-        </p>
         <h2 className="mb-20 max-w-2xl mx-auto font-heading font-bold text-center text-6xl sm:text-7xl text-gray-900">
           О нас
         </h2>
@@ -43,7 +40,7 @@ export default function About() {
                   В онлайн формате более года
                 </h3>
                 <p className="text-gray-600">
-                  За 1 гол мы обучили более 800 учеников по всему миру!
+                  За 1 год мы обучили более 800 учеников по всему миру!
                 </p>
               </div>
             </div>

@@ -17,10 +17,11 @@ export default function Home() {
     <main>
       <Header />
       <Preview />
-      <About />
-      <CoursesFor />
-      <Feature />
+
       <Farhat />
+      <Feature />
+      <CoursesFor />
+      <About />
       <Video />
       <Reviews />
       <Footer />
