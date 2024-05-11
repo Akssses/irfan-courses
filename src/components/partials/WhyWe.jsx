@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Farhat() {
+export default function WhyWe() {
   return (
     <section class="overflow-hidden">
       <div class="container mx-auto px-4">
@@ -12,7 +12,7 @@ export default function Farhat() {
                   <div class="mb-5">
                     <img
                       className="rounded-3xl w-[80%]"
-                      src="/assets/gradia-assets/images/hero/farhat2.png"
+                      src="/assets/gradia-assets/images/muslims3.png"
                       alt=""
                     />
                   </div>
@@ -22,11 +22,8 @@ export default function Farhat() {
           </div>
           <div class="w-full md:w-1/2 p-6">
             <div class="">
-              <p class="mb-5 max-w-max text-transparent bg-clip-text bg-gradient-cyan font-heading text-xs uppercase font-semibold tracking-px">
-                обучил более 2000 учеников!
-              </p>
               <h2 class="mb-7 font-heading font-semibold text-6xl sm:text-7xl text-gray-900">
-                Фархат Ажы Юсупов
+                Почему выбирают именно нас?
               </h2>
 
               <ul>
@@ -36,9 +33,36 @@ export default function Farhat() {
                     src="/assets/gradia-assets/elements/hero/check.svg"
                     alt=""
                   />
+                  <p>Курсы одобренные Муфтиятом Кыргызксой Республики</p>
+                </li>
+                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img
+                    className="mr-2"
+                    src="/assets/gradia-assets/elements/hero/check.svg"
+                    alt=""
+                  />
                   <p>
-                    20 лет неустанно обучает людей Курану ради довольства
-                    Всевышнего и желания студентов обучаться
+                    Знания от Устаза, обучивший более 3000 учеников за 20 лет
+                    преподавания
+                  </p>
+                </li>
+                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img
+                    className="mr-2"
+                    src="/assets/gradia-assets/elements/hero/check.svg"
+                    alt=""
+                  />
+                  <p>Гибкость формата</p>
+                </li>
+                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
+                  <img
+                    className="mr-2"
+                    src="/assets/gradia-assets/elements/hero/check.svg"
+                    alt=""
+                  />
+                  <p>
+                    Легкая методика по которой можно научиться читать Куран за 1
+                    месяц
                   </p>
                 </li>
                 <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
@@ -48,29 +72,9 @@ export default function Farhat() {
                     alt=""
                   />
                   <p>
-                    Является зам. председателем советов Улемов Кыргызской
-                    Республики
+                    Мы даем 100% гарантию на результат при выполнении всех наших
+                    заданий
                   </p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>
-                    Его пятничные баяны, лекции и учения публикуются, таких как
-                    YouTube и instagram. Минимум 2 миллиона просмотра в
-                    социальных сетях
-                  </p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>Показывает самый лёгкий путь полюбить Ислам!</p>
                 </li>
               </ul>
             </div>

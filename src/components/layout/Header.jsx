@@ -16,7 +16,7 @@ export default function Header() {
         <div className="w-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-auto mr-14">
-              <a href="#">
+              <a href="/">
                 <img
                   className="w-[50px]"
                   src="/assets/gradia-assets/logos/ifranlogo.png"

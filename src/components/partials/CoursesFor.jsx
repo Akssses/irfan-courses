@@ -8,54 +8,15 @@ export default function CoursesFor() {
           <div className="w-full lg:w-1/2 p-6">
             <div className="">
               <h2 className="mb-6 font-heading font-bold text-7xl text-gray-900">
-                Курсы подойдут для братьев и сестер которые хотят:
+                Для кого подойдут курсы?
               </h2>
 
-              <ul>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>
-                    Научиться читать Куран, но нет времени посещать оффлайн
-                    курсы
-                  </p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>Исправить свои ошибки в произношении сур в намазе</p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>Свободно читать Куран по правилам таджвида&nbsp;</p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>Сделать шаг на пути Всевышнего и укрепить свой Иман</p>
-                </li>
-                <li className="mb-4 flex items-center font-heading font-semibold text-lg text-gray-900">
-                  <img
-                    className="mr-2"
-                    src="/assets/gradia-assets/elements/hero/check.svg"
-                    alt=""
-                  />
-                  <p>Найти довольство Всевышнего</p>
-                </li>
-              </ul>
+              <p>
+                Для братьев и сестер, которые хотят начать поклонение ради
+                довольства Всевышнего и выйти на новый уровень духовности. Для
+                тех, кто хочет получить награды за чтение Курана и его
+                заступничество в судный день.
+              </p>
             </div>
           </div>
           <div className="w-full lg:w-1/2 p-6">

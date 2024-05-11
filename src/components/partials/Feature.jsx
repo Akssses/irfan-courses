@@ -16,31 +16,37 @@ export default function Feature() {
       id: 1,
       title: "На первых уроках вы изучите",
       description:
-        "Вы изучите вероубеждение и получите ответ на вопрос «Кто такой мусульманин?». Этот раздел курса направлен на понимание основных принципов и ценностей Ислама.",
+        "Для познания основ Ислама получите знания, посвященные к вероубеждению и пониманию «кто такой мусульманин»",
     },
     {
       id: 2,
       title: "Чтение Курана",
       description:
-        "С нуля научитесь полноценному и свободному чтению Курана в оригинале по всем правилам махража и таджвида",
+        "С нуля научитесь полноценному чтению Курана в оригинале по всем правилам махража и таджвида",
     },
     {
       id: 3,
       title: "Улучшение молитв",
       description:
-        "2 модуля, посвященные исправлению и улучшению качества ваших пятикратных намазов",
+        "2 модуля, посвященные исправлению и улучшению качества чтения  сур, таспихов и дуа  для смиренности в намазе",
     },
     {
       id: 4,
       title: "Личный куратор",
       description:
-        "На протяжении трех месяцев у вас будет личный куратор, который будет сопровождать вас, отвечать на вопросы и помогать в освоении новых тем.",
+        "Сопровождение от личного Куратора в течении 3 месяцев с индивидуальным подходом под ваши запросы для достижения качественного результата",
     },
     {
       id: 5,
       title: "Практические созвоны от устазов",
       description:
-        "Зум созвоны с устазами для закрепления пройденных тем и исправлений ошибок в произношении",
+        "Лекции от устаза Фархат Ажы Юсупова с 20 летним опытом по хадисам, фикху и акъыде каждую неделю",
+    },
+    {
+      id: 6,
+      title: "Книга по индивидуальной методике",
+      description:
+        "Получите книгу по индивидуальной методике для эффективного и легкого обучения",
     },
   ];
 
@@ -51,7 +57,7 @@ export default function Feature() {
           <div className="w-full lg:w-7/12 p-8">
             <img
               className="relative rounded-2xl transform hover:scale-105 transition ease-in-out duration-500"
-              src="/assets/gradia-assets/images/muslims.png"
+              src="/assets/gradia-assets/images/muslims2.png"
               alt=""
             />
           </div>
@@ -61,7 +67,7 @@ export default function Feature() {
                 На курсе вы получите:
               </h2>
               {courseCards.map((card) => (
-                <div key={card.id}>
+                <div onClick={() => toggleAccordion(card.id)} key={card.id}>
                   <div className="mb-6 bg-gradient-cyan h-px"></div>
                   <div className="mb-5 flex flex-wrap items-center justify-between">
                     <h3 className="font-heading font-bold text-lg text-gray-900">
@@ -73,7 +79,7 @@ export default function Feature() {
                     >
                       <svg
                         className={
-                          openCards[card.id] ? "rotate-180" : "rotate-0"
+                          openCards[card.id] ? "rotate-0" : "rotate-180"
                         }
                         width="18"
                         height="18"
