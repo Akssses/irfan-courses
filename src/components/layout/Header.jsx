@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import FeedbackModal from "./FeedbackModal";
+import Link from "next/link";
 
 export default function Header() {
   const [openNavbar, setOpenNavBar] = useState(false);
@@ -16,27 +17,27 @@ export default function Header() {
         <div className="w-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-auto mr-14">
-              <a href="/">
+              <Link href="/">
                 <img
                   className="w-[50px]"
                   src="/assets/gradia-assets/logos/ifranlogo.png"
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="w-auto hidden lg:block">
               <ul className="flex items-center mr-10">
                 <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                  <a href="#">О курсе</a>
+                  <Link href="#">О курсе</Link>
                 </li>
                 <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                  <a href="#">Контакты</a>
+                  <Link href="#">Контакты</Link>
                 </li>
                 <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                  <a href="#">Отзывы</a>
+                  <Link href="#">Отзывы</Link>
                 </li>
                 <li className="font-heading text-gray-900 hover:text-gray-700 text-lg">
-                  <a href="#">Программа курса</a>
+                  <Link href="#">Программа курса</Link>
                 </li>
               </ul>
             </div>
@@ -71,13 +72,13 @@ export default function Header() {
               <div className="w-full">
                 <div className="flex items-center justify-between -m-2">
                   <div className="w-auto p-2">
-                    <a className="inline-block" href="#">
+                    <Link className="inline-block" href="#">
                       <img
                         className="w-[50px]"
                         src="/assets/gradia-assets/logos/ifranlogo.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="w-auto p-2">
                     <button
@@ -107,36 +108,36 @@ export default function Header() {
               <div className="flex flex-col justify-center py-8 w-full">
                 <ul>
                   <li className="mb-12">
-                    <a
+                    <Link
                       className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
                       href="#"
                     >
                       О нас
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-12">
-                    <a
+                    <Link
                       className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
                       href="#"
                     >
                       Контакты
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-12">
-                    <a
+                    <Link
                       className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
                       href="#"
                     >
                       Отзывы
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
                       href="#"
                     >
                       Программа курса
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
